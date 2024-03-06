@@ -6,9 +6,9 @@
 	@include m.tablet {
 		margin-top: 10rem;
 	}
-	// &__heading {
-	//       @include m.heading;
-	// }
+	&__heading {
+		@include m.heading;
+	}
 	&__grid {
 		@include m.grid(1, 2rem);
 		@include m.tablet {
